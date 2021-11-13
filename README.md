@@ -14,7 +14,7 @@ _En el servidor **A**, ejecuto:_
 1. `podman ps` (ver los contenedores que están en ejecución).
 2. `podman commit -p <ID_CONTAINER> <NAME_IMAGE>` (se crea imagen del contenedor a ser transferido).
 3. `podman images` (se verifica que se ha creado la imagen).
-4) `podman save -o docker save -o <PATH>/<NAME_IMAGE>.tar <NAME_IMAGE>` (Se hace un tar del contenedor a transferir).
+4) `podman save -o <PATH>/<NAME_IMAGE>.tar <NAME_IMAGE>` (Se hace un tar del contenedor a transferir).
 
 _En el servidor **B**_
 
